@@ -1,0 +1,12 @@
+{
+  "cars": [
+    {
+      "car": "Toyota",
+      "fuel": "25km",
+      "speed": "200km/hr",
+      "price": "9000000",
+      "img": "v8_360x240 1.png",
+      "id": 1
+    }
+  ]
+}
