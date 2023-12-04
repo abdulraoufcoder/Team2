@@ -15,6 +15,14 @@
       "price": "9000000",
       "img": "v8_360x240 1.png",
       "id": 2
+    },
+    {
+      "car": "Civic",
+      "fuel": "120ltr",
+      "speed": "150km/hr",
+      "price": "9000000",
+      "img": "v8_360x240 1.png",
+      "id": 3
     }
   ]
 }

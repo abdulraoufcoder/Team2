@@ -95,6 +95,7 @@
         .data {
             display: flex;
             padding: 20px 20px;
+            margin-bottom: 2.5rem;
         }
 
         .data h2 {
@@ -169,13 +170,13 @@
                     `
                 
     <div class="cards">
-        <img src="${item.UrlImg}" alt="">
+        <img src="${item.img}" alt="">
         <div class="data">
             <div class="left">
-            <h2>Car-${item.id}  ${item.CarName}</h2>
-            <h4>Fuel: ${item.Fuel}</h4>
-            <h4>Speed: ${item.Speed}</h4>
-            <h4>Price: ${item.Price}</h4>
+            <h2>Car-${item.id}  ${item.car}</h2>
+            <h4>Fuel: ${item.fuel}</h4>
+            <h4>Speed: ${item.speed}</h4>
+            <h4>Price: ${item.price}</h4>
         </div>
         <div class="right">
             <button>Book Car</button>
