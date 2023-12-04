@@ -111,6 +111,40 @@
         const form = document.querySelector("form")
         form.addEventListener("submit", function (event) {
             event.preventDefault();
+
+            if(this.car.value==""){
+                document.querySelector("#car").style.border="1px solid red"
+            }
+            else{
+                document.querySelector("#car").style.border="1px solid black"    
+            }
+            if (this.fuel.value=="") {
+                document.querySelector("#fuel").style.border="1px solid red"
+            }
+            else{
+                document.querySelector("#fuel").style.border="1px solid black"    
+            }
+            if (this.speed.value=="") {
+                document.querySelector("#speed").style.border="1px solid red"
+            }
+            else{
+                document.querySelector("#speed").style.border="1px solid black"    
+            }
+            if (this.price.value=="") {
+                document.querySelector("#price").style.border="1px solid red"
+            }
+            else{
+                document.querySelector("#price").style.border="1px solid black"    
+            }
+            if (this.img.value==""){
+                document.querySelector("#img").style.border="1px solid red"
+            }
+            else{
+                document.querySelector("#img").style.border="1px solid black"    
+            }
+
+
+
             if (this.car.value !== "" &&
                 this.fuel.value !== "" &&
                 this.speed.value !== "" &&
