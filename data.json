@@ -23,6 +23,22 @@
       "price": "9000000",
       "img": "v8_360x240 1.png",
       "id": 3
+    },
+    {
+      "car": "HONDA",
+      "fuel": "120ltr",
+      "speed": "220km/hr",
+      "price": "8500000",
+      "img": "v8_360x240 1.png",
+      "id": 4
+    },
+    {
+      "car": "ALTO",
+      "fuel": "30ltr",
+      "speed": "160km/hr",
+      "price": "2500000",
+      "img": "https://www.gari.pk/images/new/cars/2021-11/1282_1_92747.jpg",
+      "id": 5
     }
   ]
 }
